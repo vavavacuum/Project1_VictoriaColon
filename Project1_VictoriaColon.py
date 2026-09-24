@@ -19,5 +19,5 @@ total_chicken = chicken_price * num_of_chicken
 total_price = total_apple + total_banana + total_kiwi + total_steak + total_chicken
 
 total_items = num_of_apple + num_of_banana + num_of_kiwi + num_of_steak + num_of_chicken
-average_price = total_items / total_items
+average_price = total_price / total_items
 print(f"{shopper_name.title()}: Total price: ${total_price}, average price per item: ${average_price}")
